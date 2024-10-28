@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class LogicoDisjuncao {
 
 	public static void main(String[] args) {
-		Scanner read = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
 		 
-        boolean age, present_mother, response;
+        boolean idade, mae_presente, resposta;
  
         System.out.println("Let's check cinema access: ");
         System.out.println("Age greater than or equal to 18? ");
-        age = read.nextBoolean();
+        idade = ler.nextBoolean();
  
         System.out.println("Is your mother present? ");
-        present_mother = read.nextBoolean();
+        mae_presente = ler.nextBoolean();
  
-        response = age || present_mother;
+        resposta = idade || mae_presente;
         
-        System.out.println("Acess " + response+ "!");
+        System.out.println("Acess " + resposta+ "!");
         
-        read.close();
+        ler.close();
 	}
 
 }

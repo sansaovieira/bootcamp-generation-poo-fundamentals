@@ -4,10 +4,10 @@ public class Unarios {
 	public static void main(String[] args) {
 		int x = 10, y = 8;
 		
-		System.out.println("\nPré Incrementar: x = ++ y");
+		System.out.println("\nPre Increase: x = ++ y");
 		
 		x = --y;
-		System.out.println("\nValor de X: " +x);
-		System.out.println("\nValor de Y: " +y);
+		System.out.println("\nValue of X: " +x);
+		System.out.println("\nValue of Y: " +y);
 	}
 }

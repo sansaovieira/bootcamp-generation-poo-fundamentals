@@ -10,8 +10,11 @@ public class Aritmeticos {
 		
 		result = x * (y + a); 
 		
+		x += y;
+		
 		System.out.println("The result is: " + result);
 		System.out.println("The result is: " + (y + a));
+		System.out.println("The result is: " + x);
 		
 	}
 

@@ -9,19 +9,19 @@ public class LogicoConjuncao {
 		 
         boolean age, ticket, response, parents;
  
-        System.out.println("\nLet's check access to the club: ");
+        System.out.println("Vamos verificar acesso a balada: ");
  
-        System.out.println("Do you have the ticket? ");
+        System.out.println("Tem o ingresso? ");
         ticket = read.nextBoolean();
  
-        System.out.println("Age greater than or equal to 18? ");
+        System.out.println("Idade maior ou igual a 18? ");
         age = read.nextBoolean();
         
-        System.out.println("Are you related to the owner? ");
+        System.out.println("É parente do dono? ");
         parents = read.nextBoolean();
         
-        response = age && ticket || parents;
-        System.out.println("Access: " + response+ "!");
+        response = age && ticket || parente;
+        System.out.println("Acesso! " + response);
         
         read.close();
 

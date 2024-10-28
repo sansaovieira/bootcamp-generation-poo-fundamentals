@@ -21,7 +21,7 @@ public class LogicoConjuncao {
         parents = read.nextBoolean();
         
         response = age && ticket || parents;
-        System.out.println("Access: " + response+ "!");
+        System.out.println("Access: " + response + "!");
         
         read.close();
 

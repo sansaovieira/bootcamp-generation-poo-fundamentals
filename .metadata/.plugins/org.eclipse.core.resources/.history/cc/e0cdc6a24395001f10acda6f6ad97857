@@ -5,11 +5,11 @@ public class Relacionais {
 	public static void main(String[] args) {
 		int x = 10;
 		int y = 5;
-		boolean response;
+		boolean resposta;
 		
-		response = x != y;
+		resposta = x != y;
 		
-		System.out.println("Is the value of x greater than the value of y? " + response);
+		System.out.println("O valor de x é maior do que o valor de y? " + resposta);
 
 	}
 
