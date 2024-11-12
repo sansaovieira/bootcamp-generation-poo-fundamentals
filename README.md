@@ -1,9 +1,10 @@
-# Bootcamp Generation - Java Module
-<p>This repository contains projects, exercises and notes developed during the Java module in the Generation Brasil bootcamp.</p> 
-<p>The course covers everything from the fundamentals of object-oriented programming to backend development with the Spring Framework, as well as code versioning practices with Git.</p>
+# Java OOP Fundamentals - Bootcamp Fullstack JR Java + React | Generation Brasil
 
-<b>Repository Structure</b>
-<p>The repository is organized into folders that represent the main areas of learning and practices carried out in the course.</p>
+This repository is dedicated to Java Object-Oriented Programming (OOP) fundamentals as part of the Fullstack JR Java + React Bootcamp by Generation Brasil. It contains foundational concepts in OOP, including:
 
-<b>Contribution</b>
-<p>Contributions are welcome! Feel free to open issues and pull requests to add improvements, bug fixes or new features.</p>
+Classes and Objects: Creating and instantiating Java classes, working with constructors, attributes, and methods.
+Encapsulation: Understanding access modifiers, getters, and setters.
+Inheritance: Exploring Java inheritance to reuse and extend code functionality.
+Polymorphism: Implementing polymorphism to allow flexible and dynamic method behavior.
+Interfaces and Abstract Classes: Leveraging interfaces and abstract classes for designing extensible systems.
+Each section includes code examples, exercises, and explanations designed to reinforce the concepts and practices of Java OOP. This repository aims to provide practical resources and guidance for beginners transitioning to more advanced Java development concepts within the context of full-stack web development.
